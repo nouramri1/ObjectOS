@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "ObjectOS",
+    "version": "0.1.0",
+    "description": "Control your browser with everyday objects.",
+    "minimum_chrome_version": "116",
+    "permissions": ["sidePanel"],
+    "action": {
+      "default_title": "Open ObjectOS"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "side_panel": {
+      "default_path": "sidepanel.html"
+    }
+  }
